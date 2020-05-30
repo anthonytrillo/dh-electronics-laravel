@@ -9,7 +9,7 @@
     <p class ="alert alert-success text-center">El producto ha sido eliminado</p>
   @endif
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -61,40 +61,54 @@
 <!-- PRODUCTOS -->
 
 <div id="centerRegionContainer" class="centerRegionContainer ">
-
+    <div>
+        <h2 class="text-center">Artículos destacados</h2>
+    </div>
 <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <img src="/images/BoseSPeaker.jpeg" class="img-fluid w-50 h-50" alt="audio">
-      <br><br>
-        <a class="btn btn-outline-secondary" href="{{ url('/categoria/3/audio') }}">Parlantes</a>
+    <div class="container">
+    <div class="row justify-content-md-center">
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/BoseSPeaker.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Parlantes</h5>
+            <p class="card-text"></p>
+            <a href="{{ url('/categoria/3/audio') }}" class="btn btn-primary">Ver mas...</a>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
-    <div class="pro my-3 p-3 justify-content ">
-      <img src="/images/Fotografia.jpg" class="img-fluid w-50 h-50" alt="fotografia">
-      <br><br>
-      <a class="btn btn-outline-secondary" href="{{ url('/categoria/1/fotografia') }}">Fotografía</a>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Fotografia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Cámaras fotográficas</h5>
+            <p class="card-text"></p>
+            <a href="{{ url('/categoria/1/fotografia') }}" class="btn btn-primary">Ver mas...</a>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
-    <div class="pro my-3 p-3">
-      <img src="/images/dron.jpg" class="img-fluid w-50 h-50 " alt="fotografia">
-      <br><br>
-        <a class="btn btn-outline-secondary" href="{{ url('/categoria/1/fotografia') }}">Drones & VideoCamaras</a>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/dron.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Drones y Videocamaras</h5>
+            <p class="card-text"></p>
+            <a href="{{ url('/categoria/1/fotografia') }}" class="btn btn-primary">Ver mas...</a>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden">
-    <div class="pro my-3 py-3">
-      <img src="/images/iphone.jpeg" class="img-fluid w-50 h-50" alt="celulares">
-      <br><br>
-          <a class="btn btn-outline-secondary" href="{{ url('/categoria/4/mobile') }}">Celulares</a>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/iphone.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Celulares</h5>
+            <p class="card-text"></p>
+            <a href="{{ url('/categoria/4/mobile') }}" class="btn btn-primary">Ver mas...</a>
+            </div>
+        </div>
     </div>
-  </div>
+    </div>
+    </div>
 </div>
 
 <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">

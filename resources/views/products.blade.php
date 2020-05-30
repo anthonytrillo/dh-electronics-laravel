@@ -32,7 +32,7 @@
       <div class="descripcion">
         <h4>Descripción</h4>
         <ul class="lista">
-        <li>Categoría: <h>{{ $product->category->name ?? 'Sin categoria'}}</h>
+        <li>Categoría: <h5>{{ $product->category->name ?? 'Sin categoria'}}</h5>
         <li> Descripción y caracteristicas técnicas:</li>
             <ul>
               <span itemprop="name">{{ $product->description }}</span>

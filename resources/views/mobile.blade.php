@@ -23,7 +23,7 @@
         <div class="descripcion">
           <h4>Descripcion</h4>
           <ul class="lista">
-          <li><h>Colores:</h>
+          <li><h5>Colores:</h5>
             <ul>
               <li> Blanco</li>
               <li> Negro</li>
@@ -68,14 +68,14 @@
         <div class="descripcion">
           <h4>Descripcion</h4>
           <ul class="lista">
-            <li><h>Colores:</h>
+            <li><h5>Colores:</h5>
               <ul>
                 <li>Blanco ceramico</li>
                 <li>Azul prisma</li>
                 <li>Negro prisma </li>
               </ul>
             </li>
-            <li><h>Capacidad:</h>
+            <li><h5>Capacidad:</h5>
               <ul>
                 <li>128 GB</li>
                 <li>512 GB</li>
@@ -117,7 +117,7 @@
         <div class="descripcion">
           <h4>Descripcion</h4>
           <ul class="lista">
-            <li><h>Colores:</h>
+            <li><h5>Colores:</h5>
               <ul>
                 <li>Azul ocean</li>
                 <li>Negro Piano</li>
