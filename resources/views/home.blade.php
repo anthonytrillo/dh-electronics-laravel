@@ -17,7 +17,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/images/Boseagua.jpg" class="d-block w-100 h-80" alt="Bose">
+        <img src="/storage/images/Boseagua.jpg" class="d-block w-100 h-80" alt="Bose">
         <div class="containerCarousel">
           <div class="carousel-caption text-left">
             <h1>Parlantes waterproof</h1>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/images/foto.jpg" class="d-block w-100 h-80" alt="Bose">
+        <img src="/storage/images/foto.jpg" class="d-block w-100 h-80" alt="Bose">
         <div class="containerCarousel">
           <div class="carousel-caption text-left">
             <h1>Fotografia</h1>
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/images/smartphone.jpg" class="d-bloITEck w-100 h-80" alt="celulares">
+        <img src="/storage/images/smartphone.jpg" class="d-bloITEck w-100 h-80" alt="celulares">
         <div class="containerCarousel">
           <div class="carousel-caption text-left">
             <h1>Smartphones</h1>
@@ -60,92 +60,78 @@
 
 <!-- PRODUCTOS -->
 
-<div id="centerRegionContainer" class="centerRegionContainer ">
-    <div>
-        <h2 class="text-center">Artículos destacados</h2>
-    </div>
-<div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
-    <div class="container">
-    <div class="row justify-content-md-center">
-    <div class="col-3">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/BoseSPeaker.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Parlantes</h5>
-            <p class="card-text"></p>
-            <a href="{{ url('/categoria/3/audio') }}" class="btn btn-primary">Ver mas...</a>
+    <div id="centerRegionContainer" class="centerRegionContainer ">
+        <div>
+            <h2 class="text-center">Artículos destacados</h2>
+        </div>
+        <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
+            <div class="pro bg-inherit mr-md-3 pt-4 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+              <div class="pro my-3 p-3">
+                <img src="storage/images/Boseagua.jpg" class="img-fluid w-50 h-50" alt="tv">
+                <br><br>
+                <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Gaming</a>
+              </div>
+            </div>
+
+            <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-white text-center overflow-hidden">
+              <div class="pro my-3 py-3">
+                <img src="storage/images/Accesorios.jpeg" class="img-fluid w-50 h-50" alt="accesorios">
+                <br><br>
+                <a class="btn btn-outline-secondary" href="{{ url('/categoria/6/accesorios') }}">Accesorios</a>
+              </div>
+            </div>
+
+            <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+              <div class="pro my-3 p-3">
+                <img src="storage/images/fotosDH/lenovo.jpg" class="img-fluid w-50 h-50" alt="compu">
+                <br><br>
+                <a class="btn btn-outline-secondary" href="{{ url('/categoria/2/computadoras') }}">Computadoras</a>
+              </div>
+            </div>
+
+            <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+              <div class="pro my-3 py-3">
+                <img src="storage/images/fotosDH/samsung_.jpg" class="img-fluid w-50 h-50" alt="TV">
+                <br><br>
+                  <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Televisores</a>
+              </div>
             </div>
         </div>
-    </div>
-    <div class="col-3">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/Fotografia.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Cámaras fotográficas</h5>
-            <p class="card-text"></p>
-            <a href="{{ url('/categoria/1/fotografia') }}" class="btn btn-primary">Ver mas...</a>
+
+        <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
+          <div class="pro bg-inherit mr-md-3 pt-4 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+            <div class="pro my-3 p-3">
+              <img src="storage/images/nintendo.jpg" class="img-fluid w-50 h-50" alt="tv">
+              <br><br>
+              <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Gaming</a>
             </div>
+          </div>
+
+          <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-white text-center overflow-hidden">
+            <div class="pro my-3 py-3">
+              <img src="storage/images/Accesorios.jpeg" class="img-fluid w-50 h-50" alt="accesorios">
+              <br><br>
+              <a class="btn btn-outline-secondary" href="{{ url('/categoria/6/accesorios') }}">Accesorios</a>
+            </div>
+          </div>
+
+          <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+            <div class="pro my-3 p-3">
+              <img src="storage/images/fotosDH/lenovo.jpg" class="img-fluid w-50 h-50" alt="compu">
+              <br><br>
+              <a class="btn btn-outline-secondary" href="{{ url('/categoria/2/computadoras') }}">Computadoras</a>
+            </div>
+          </div>
+
+          <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+            <div class="pro my-3 py-3">
+              <img src="storage/images/fotosDH/samsung_.jpg" class="img-fluid w-50 h-50" alt="TV">
+              <br><br>
+                <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Televisores</a>
+            </div>
+          </div>
         </div>
     </div>
-    <div class="col-3">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/dron.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Drones y Videocamaras</h5>
-            <p class="card-text"></p>
-            <a href="{{ url('/categoria/1/fotografia') }}" class="btn btn-primary">Ver mas...</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-3">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/iphone.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Celulares</h5>
-            <p class="card-text"></p>
-            <a href="{{ url('/categoria/4/mobile') }}" class="btn btn-primary">Ver mas...</a>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-</div>
-
-<div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
-  <div class="pro bg-inherit mr-md-3 pt-4 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
-    <div class="pro my-3 p-3">
-      <img src="/images/nintendo.jpg" class="img-fluid w-50 h-50" alt="tv">
-      <br><br>
-      <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Gaming</a>
-    </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-white text-center overflow-hidden">
-    <div class="pro my-3 py-3">
-      <img src="/images/Accesorios.jpeg" class="img-fluid w-50 h-50" alt="accesorios">
-      <br><br>
-      <a class="btn btn-outline-secondary" href="{{ url('/categoria/6/accesorios') }}">Accesorios</a>
-    </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
-    <div class="pro my-3 p-3">
-      <img src="/storage/images/fotosDH/lenovo.jpg" class="img-fluid w-50 h-50" alt="compu">
-      <br><br>
-      <a class="btn btn-outline-secondary" href="{{ url('/categoria/2/computadoras') }}">Computadoras</a>
-    </div>
-  </div>
-
-  <div class="pro bg-inherit mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
-    <div class="pro my-3 py-3">
-      <img src="/storage/images/fotosDH/samsung_.jpg" class="img-fluid w-50 h-50" alt="TV">
-      <br><br>
-        <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Televisores</a>
-    </div>
-  </div>
-</div>
-
-</div>
 </main>
 
 
