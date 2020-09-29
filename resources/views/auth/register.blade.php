@@ -38,11 +38,11 @@
       @enderror
 
       <!-- PAIS DE NACIMIENTO -->
-    	<label for="country">País de nacimiento</label>
+      <label for="country">País de nacimiento</label>
 
-      <select id = "country" class="form-control @error('country') is-invalid @enderror" name="country"></select>
+      <select id="country" class="form-control @error('country') is-invalid @enderror" name="country"></select>
       <br>
-      <select id = 'state' class="form-control" name="state"></select>
+      {{-- <select id="state" class="form-control" name="state"></select> --}}
 
         @error('country')
           <span class="invalid-feedback" role="alert">
