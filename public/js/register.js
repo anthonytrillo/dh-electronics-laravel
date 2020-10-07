@@ -1,15 +1,16 @@
 var countriesField = document.querySelector ('select[name = country]');
 
- fetch('http://country.io/names.json')
+ fetch('https://restcountries.eu/rest/v2/region/americas?fields=name')
 
  .then(response => response.json())
 
  .then(function (data){
-   console.log(data)
-   for(country in data){
+//    console.log(data)
+   for(var i = 0; i < data.length; i++){
      var opt = document.createElement('option');
-     opt.innerHTML = data[country];
-     countriesField.append(opt);
+     opt.value = i;
+     opt.innerHTML = data[i].name;
+     countriesField.appendChild(opt);
    };
  })
    .catch(function (error){
@@ -19,15 +20,16 @@ var countriesField = document.querySelector ('select[name = country]');
 
 var stateField = document.querySelector ('select[name = state]');
 
- fetch('http://dev.digitalhouse.com/api/getProvincias')
+ fetch('https://apis.datos.gob.ar/georef/api/provincias?campos=id,nombre')
 
  .then(response => response.json())
+
  .then(function (todaLaData){
-   console.log(todaLaData)
-   for (var i = 0; i < todaLaData.data.length; i++){
+//    console.log(todaLaData)
+   for (var i = 0; i < todaLaData.provincias.length; i++){
      var opt = document.createElement('option');
      opt.value = i;
-     opt.innerHTML = todaLaData.data[i].state;
+     opt.innerHTML = todaLaData.provincias[i].nombre;
      stateField.appendChild(opt);
 
    };
@@ -37,14 +39,14 @@ var stateField = document.querySelector ('select[name = state]');
  })
 
  // opcion ver las provincias si soy de argentina !!
-stateField.style.visibility = "hidden";
+stateField.style.display = 'none';
 
 countriesField.onchange = function (){
-
-  if (this.value == "Argentina") {
-    stateField.style.visibility = "visible";
-  }
-  else {
-    stateField.style.visibility = "hidden";
-  }
+    console.log(this.value);
+    if (this.value == "2") {
+        stateField.style.display = 'block';
+    }
+    else {
+        stateField.style.display = 'none';
+    }
 };
