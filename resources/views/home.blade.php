@@ -98,7 +98,7 @@
             </div>
         </div>
 
-        <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
+        {{--  <div class="pro d-md-flex flex-md-equal my-md-3 pl-md-3">
           <div class="pro bg-inherit mr-md-3 pt-4 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
             <div class="pro my-3 p-3">
               <img src="storage/images/nintendo.jpg" class="img-fluid w-50 h-50" alt="tv">
@@ -129,7 +129,7 @@
               <br><br>
                 <a class="btn btn-outline-secondary" href="{{ url('/categoria/5/tv') }}">Televisores</a>
             </div>
-          </div>
+          </div>  --}}
         </div>
     </div>
 </main>
